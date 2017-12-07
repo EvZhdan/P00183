@@ -31,8 +31,7 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
 
         lParams1 = (LinearLayout.LayoutParams) btn1.getLayoutParams();
         lParams2 = (LinearLayout.LayoutParams) btn2.getLayoutParams();
-    }
-
+    }//after changed
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
         int leftValue = progress;
